@@ -75,3 +75,6 @@ $string['view_grade_items_edit_calculation'] = 'Edit calculation';
 $string['view_user'] = 'User profile';
 $string['view_user_edit'] = 'Edit user';
 $string['view_user_info_field_edit'] = 'Edit user field';
+
+// Capabilities.
+$string['navdb:view'] = 'View database navigation';
