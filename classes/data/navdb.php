@@ -53,7 +53,8 @@ class navdb {
     private $query;
     private $fields;
 
-
+    // GCHLOL - NL: Add missing class properties.
+    private $extras;
 
     /**
      * Constructor.
@@ -135,7 +136,13 @@ class navdb {
             }
             $tables[$parts[0]][] = $this->getTableData($tablename);
         }
-        array_map('asort', $tables);
+
+        // GCHLOL NL: `asort` expects a reference so can't be used with `array_map`.
+        //array_map('asort', $tables);
+        foreach ($tables as &$table) {
+            asort($table);
+        }
+
         ksort($tables);
         return $tables;
     }
