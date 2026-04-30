@@ -24,7 +24,7 @@ require(__DIR__.'/../../../config.php');
 require_once($CFG->dirroot.'/lib/formslib.php');
 
 require_login();
-require_capability('moodle/site:config', context_system::instance());
+require_capability('tool/navdb:view', context_system::instance());
 
 // navigation main params
 /*$params = new stdClass();

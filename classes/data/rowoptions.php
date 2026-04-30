@@ -40,6 +40,10 @@ class rowoptions {
     private $navdb;
     private $modules;
 
+    // GCHLOL - NL: Add missing class properties.
+    protected $moduleid;
+    protected $modulenames;
+
     /**
      * Constructor.
      *

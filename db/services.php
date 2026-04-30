@@ -31,7 +31,7 @@ $functions = array(
         'classpath'    => '',
         'description' => 'Get the unix timestamp of a string',
         'type'        => 'read',
-        'capabilities' => 'moodle/site:config',
+        'capabilities' => 'tool/navdb:view',
         'ajax'          => true,
     ),
     'tool_navdb_get_userid' => array(
@@ -40,7 +40,7 @@ $functions = array(
         'classpath'    => '',
         'description' => 'Search userid from a string (id, username, idnumber, email)',
         'type'        => 'read',
-        'capabilities' => 'moodle/site:config',
+        'capabilities' => 'tool/navdb:view',
         'ajax'          => true,
     ),
     'tool_navdb_get_roleid' => array(
@@ -49,7 +49,7 @@ $functions = array(
         'classpath'    => '',
         'description' => 'Search a roleid from a string (id, shortname, name)',
         'type'        => 'read',
-        'capabilities' => 'moodle/site:config',
+        'capabilities' => 'tool/navdb:view',
         'ajax'          => true,
     ),
     'tool_navdb_get_courseid' => array(
@@ -58,7 +58,7 @@ $functions = array(
         'classpath'    => '',
         'description' => 'Search a courseid from a string (id, shortname, idnumber, fullname)',
         'type'        => 'read',
-        'capabilities' => 'moodle/site:config',
+        'capabilities' => 'tool/navdb:view',
         'ajax'          => true,
     ),
     'tool_navdb_get_contextid' => array(
@@ -67,7 +67,7 @@ $functions = array(
         'classpath'    => '',
         'description' => 'Search a roleid from a string (id, shortname, name)',
         'type'        => 'read',
-        'capabilities' => 'moodle/site:config',
+        'capabilities' => 'tool/navdb:view',
         'ajax'          => true,
     ),
     'tool_navdb_starred_table' => array(
@@ -76,7 +76,7 @@ $functions = array(
         'classpath'    => '',
         'description' => 'Set a table starred value (no params=toggle, 1=starred, 0=no starred)',
         'type'        => 'write',
-        'capabilities' => 'moodle/site:config',
+        'capabilities' => 'tool/navdb:view',
         'ajax'          => true,
     ),
 );

@@ -41,6 +41,11 @@ class rowexport {
     private $rowoptions;
     private $rowcount;
 
+    // GCHLOL - NL: Add missing class properties.
+    private $modulenames;
+    private $rolenames;
+    private $userfieldnames;
+
     /**
      * Constructor.
      *
